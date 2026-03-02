@@ -1,0 +1,19 @@
+{
+	"name": "mmm-octopus-energy-prices",
+	"version": "1.0.0",
+	"description": "MagicMirror module for Octopus Energy electricity unit rates with graph visualization.",
+	"main": "MMM-OctopusEnergyPrices.js",
+	"keywords": [
+		"magicmirror",
+		"module",
+		"octopus-energy",
+		"energy-prices",
+		"dashboard"
+	],
+	"author": "Miklos Vincze",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/vmikki/MMM-OctopusEnergyPrices.git"
+	}
+}

@@ -1,0 +1,103 @@
+.mmm-octopus-energy-prices {
+	width: 100%;
+	max-width: none;
+}
+
+.mmm-octopus-energy-prices .oep-summary {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	margin-bottom: 10px;
+}
+
+.mmm-octopus-energy-prices .oep-primary-row {
+	display: flex;
+	align-items: baseline;
+	gap: 8px;
+}
+
+.mmm-octopus-energy-prices .oep-label {
+	font-size: 0.85rem;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	color: rgba(255, 255, 255, 0.62);
+}
+
+.mmm-octopus-energy-prices .oep-value {
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: rgba(255, 255, 255, 0.96);
+}
+
+.mmm-octopus-energy-prices .oep-meta-row {
+	font-size: 0.76rem;
+	color: rgba(255, 255, 255, 0.72);
+	line-height: 1.35;
+}
+
+.mmm-octopus-energy-prices .oep-average {
+	color: rgba(255, 255, 255, 0.56);
+}
+
+.mmm-octopus-energy-prices .oep-graph-host {
+	border: 1px solid rgba(255, 255, 255, 0.14);
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.02) 100%);
+	border-radius: 8px;
+	padding: 8px;
+}
+
+.mmm-octopus-energy-prices .oep-graph-svg {
+	width: 100%;
+	height: 180px;
+	display: block;
+}
+
+.mmm-octopus-energy-prices .oep-grid-line {
+	stroke: rgba(255, 255, 255, 0.14);
+	stroke-width: 1;
+}
+
+.mmm-octopus-energy-prices .oep-current-slot {
+	fill: rgba(255, 255, 255, 0.11);
+}
+
+.mmm-octopus-energy-prices .oep-rate-bar {
+	opacity: 0.78;
+}
+
+.mmm-octopus-energy-prices .oep-price-line {
+	fill: none;
+	stroke: rgba(255, 255, 255, 0.95);
+	stroke-width: 1.8;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+.mmm-octopus-energy-prices .oep-axis-label {
+	font-size: 9px;
+	fill: rgba(255, 255, 255, 0.76);
+	text-anchor: middle;
+}
+
+.mmm-octopus-energy-prices .oep-axis-value {
+	text-anchor: end;
+}
+
+.mmm-octopus-energy-prices .oep-footer {
+	margin-top: 8px;
+	font-size: 0.7rem;
+	color: rgba(255, 255, 255, 0.53);
+	line-height: 1.4;
+}
+
+.mmm-octopus-energy-prices .oep-error-title {
+	color: rgba(255, 174, 174, 0.95);
+	font-size: 0.9rem;
+	margin-bottom: 4px;
+}
+
+.mmm-octopus-energy-prices .oep-error-text {
+	color: rgba(255, 255, 255, 0.74);
+	font-size: 0.75rem;
+	line-height: 1.4;
+}
